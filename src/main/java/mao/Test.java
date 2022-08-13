@@ -17,6 +17,16 @@ public class Test
 {
     public static void main(String[] args)
     {
+        DessertFactory dessertFactory = new AmericanDessertFactory();
+        Dessert dessert = dessertFactory.createDessert();
+        dessert.show();
+        Coffee coffee = dessertFactory.createCoffee();
+        System.out.println(coffee.getName());
 
+        dessertFactory = new ItalyDessertFactory();
+        Dessert dessert1 = dessertFactory.createDessert();
+        dessert1.show();
+        Coffee coffee1 = dessertFactory.createCoffee();
+        System.out.println(coffee1.getName());
     }
 }
