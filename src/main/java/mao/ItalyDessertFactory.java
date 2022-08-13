@@ -10,7 +10,7 @@ package mao;
  * Date(创建日期)： 2022/8/13
  * Time(创建时间)： 21:09
  * Version(版本): 1.0
- * Description(描述)： 无
+ * Description(描述)： 具体工厂,意大利风味甜点工厂
  */
 
 public class ItalyDessertFactory implements DessertFactory
